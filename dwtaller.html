@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taller</title>
+<style>
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #ecf2fb;
+    display: flex;
+    flex-direction: row;
+}
+.container-up {
+    display: flex;
+    flex-direction: column; 
+}
+.itemp1 {
+    height: 320px; 
+    width: 400px;
+    background-color: #7541c8;
+    margin: 15px;
+    border-radius: 10px;
+    position: relative; 
+}
+.itemp1 img {
+    
+    top: 10px; 
+    left: 10px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+.itemp1 p:nth-child(1),
+.itemp1 p:nth-child(2) {
+    opacity: 0.5; /* Opacidad del 50% para los dos primeros párrafos */
+    color: white; 
+}
+.itemp1 p:nth-child(3),
+.itemp1 p:nth-child(4),
+.itemp1 p:nth-child(5) {
+    color: white; 
+}
+
+.itemp2 {
+    height: 200px; 
+    width: 400px;
+    background-color: #ffffff;
+    margin: 15px;
+    border-radius: 10px;
+    position: relative; 
+}
+.itemp2 img {
+    
+    top: 10px; 
+    left: 10px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+.itemp2 p:nth-child(1),
+.itemp2 p:nth-child(2) {
+    opacity: 0.5; 
+    color: black; 
+}
+.itemp2 p:nth-child(3),
+.itemp2 p:nth-child(4),
+.itemp2 p:nth-child(5) {
+    color: black; /* Cambiar color del texto a negro */
+}
+
+.container-down {
+    display: flex;
+    flex-direction: column; 
+}
+.itemp3 {
+    height: 300px; 
+    width: 300px;
+    background-color: #48556a;
+    margin: 15px;
+    border-radius: 10px;
+    flex-basis: 25%; 
+}
+.itemp3 img {
+    
+    top: 10px; 
+    left: 10px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+.itemp3 p:nth-child(1),
+.itemp3 p:nth-child(2) {
+    opacity: 0.5; 
+    color: white; 
+}
+.itemp3 p:nth-child(3),
+.itemp3 p:nth-child(4),
+.itemp3 p:nth-child(5) {
+    color: white; 
+}
+
+.itemp4 {
+    height: 400px; 
+    width: 300px;
+    background-color: #19212e;
+    margin: 15px;
+    border-radius: 10px;
+    flex-basis: 25%; 
+}
+.itemp4 img {
+    
+    top: 10px; 
+    left: 10px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+.itemp4 p:nth-child(1),
+.itemp4 p:nth-child(2) {
+    opacity: 0.5; 
+    color: white; 
+}
+.itemp4 p:nth-child(3),
+.itemp4 p:nth-child(4),
+.itemp4 p:nth-child(5) {
+    color: white; 
+}
+
+.container-right {
+    border: 1px dashed red;
+}
+.itemp5 {
+    height: 640px; 
+    width: 200px;
+    background-color: #ffffff;
+    margin: 15px;
+    border-radius: 10px;
+    flex-basis: 35%; 
+}
+.itemp5 img {
+    
+    top: 10px; 
+    left: 10px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+.itemp5 p:nth-child(1),
+.itemp5 p:nth-child(2) {
+    opacity: 0.5; 
+    color: black; 
+}
+.itemp5 p:nth-child(3),
+.itemp5 p:nth-child(4),
+.itemp5 p:nth-child(5) {
+    color: black; 
+}
+</style>
+</head>
+<body>
+    <div class="container-up">
+        <div class="itemp1">
+            <img src="https://media.istockphoto.com/id/504854859/es/foto/pasaporte-de-fotos.jpg?s=612x612&w=0&k=20&c=ZgRbys1LeaZugUvFk43_uW7KRQHbKnMO_vXKe0Rho5A=">
+            <p>Daniel Clifford Verified Graduate</p>
+            <p>
+                I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+                in the company I joined. I honestly feel I got every penny’s worth.</p>
+            <p> “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+                transition and have heard some people who had an amazing experience here. I signed up 
+                for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+                The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+                the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+        </div>
+        <div class="itemp2">
+            <img src="https://media.istockphoto.com/id/913062404/es/foto/cara-de-hombre-de-negocios-contra-el-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=CjJxBjnrDcU4RolldKFtoW09V_wXC7m9Rv-yxla_Do4=">
+            <p> Jonathan Walters
+                Verified Graduate</p>
+            <p>The team was very supportive and kept me motivated</p>
+            <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+                for a big company. This was one of the best investments I’ve made in myself. ”</p>
+        </div>
+    </div>
+    <div class="container-down">
+        <div class="itemp3">
+            <img src="https://passport-photo.online/_static/images/_cms/_optimized/30_40_mm_photo_specifications_3_ca0278b5c9-opt-640.WEBP">
+            <p>Jeanette Harmon
+                Verified Graduate
+              </p>
+            <p>An overall wonderful and rewarding experience</p>
+            <p> “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+                while doing something I love. ”</p>
+        </div>
+        <div class="itemp4">
+            <img src="https://media.istockphoto.com/id/916534092/es/foto/retrato-de-hombre-joven-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=lrgF_cewnfuCOI_R_7PUW_bAsQvF1uU682Cxs4E3XE4=">
+            <p>  Patrick Abrams
+                Verified Graduate</p>
+            <p>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+                learning from their experiences was easy.</p>
+            <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+                gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+                junior developer. The standard is above the rest. You will get the personal attention you need from 
+                an incredible community of smart and amazing people. ”</p>
+        </div> 
+    </div>
+    <div class="container-right">
+        <div class="itemp5">
+            <img src="https://media.istockphoto.com/id/1328879352/es/foto/retrato-fotogr%C3%A1fico-de-una-hermosa-mujer-asi%C3%A1tica-que-alcanza-los-est%C3%A1ndares-de-una-foto.jpg?s=1024x1024&w=is&k=20&c=uo0xw9gFOy6EYLw6qnhUDRVs0Blfsn4dUMg-1yRlIGg=">
+            <p>  Kira Whittle
+                Verified Graduate</p>
+            <p>Such a life-changing experience. Highly recommended!</p>
+            <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+                professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+                student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+                did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+                project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+                could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+                experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+                100% recommend! ”</p>
+        </div>
+    </div>
+</body>
+</html>
